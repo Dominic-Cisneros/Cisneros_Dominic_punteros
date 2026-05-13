@@ -7,7 +7,7 @@ int main (int argc, char *argv[]) {
     //printf("%d\n", *ptr);
 
     for (int i = 0; i < 5; i++) {
-        printf("%d ", numeros[i]);
+        printf("vector[%d] = %d %d\n", i + 1, numeros[i], *(ptr + i));
         printf("%d\n", *(ptr + i));
     }
     return 0;
